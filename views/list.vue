@@ -128,7 +128,7 @@
     .list-control{
         background: #fff;
         border-radius: 6px;
-        margin: 16px;
+        margin: 64px 16px 16px 16px;
         padding: 16px;
         box-shadow: 0 1px 1px rgba(0,0,0,.2);
     }
@@ -141,8 +141,14 @@
         display: inline-block;
         border: 1px solid #e9eaec;
         border-radius: 4px;
-        margin-right: 6px;
+        margin-right: 10px;
         padding: 2px 6px;
+        transition: all 0.4s;
+    }
+    .list-control-filter-item:hover,
+    .list-control-order-item:hover {
+        color: #f2352e;
+        border: 1px solid #f2352e;
     }
     .list-control-filter-item.on,
     .list-control-order-item.on{

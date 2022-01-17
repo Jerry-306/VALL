@@ -51,6 +51,10 @@
         background: #fff;
         text-align: center;
         position: relative;
+        transition: all 0.4s;
+    }
+    .product-main:hover {
+        border: 1px solid #0070c9;
     }
     .product-main img{
         width: 100%;
@@ -60,6 +64,7 @@
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        transition: all 0.4s;
     }
     .product-main:hover h4{
         color: #0070c9;
@@ -77,7 +82,7 @@
         margin-top: 6px;
     }
     .product-add-cart{
-        display: none;
+        opacity: 0;
         padding: 4px 8px;
         background: #2d8cf0;
         color: #fff;
@@ -87,8 +92,9 @@
         position: absolute;
         top: 5px;
         right: 5px;
+        transition: all 0.4s;
     }
     .product-main:hover .product-add-cart{
-        display: inline-block;
+        opacity: 1;
     }
 </style>

@@ -45,7 +45,7 @@
 </script>
 <style scoped>
     .product{
-        margin: 32px;
+        margin: 80px 32px 32px 32px;
         padding: 32px;
         background: #fff;
         border: 1px solid #dddee1;
@@ -76,10 +76,15 @@
         display: inline-block;
         padding: 8px 64px;
         margin: 8px 0;
-        background: #2d8cf0;
+        background: #64a9f3;
         color: #fff;
         border-radius: 4px;
         cursor: pointer;
+        transition: all 0.4s;
+    }
+    .product-add-cart:hover {
+        background: #3992f1;
+
     }
     .product-desc{
         margin: 32px;

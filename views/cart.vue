@@ -4,9 +4,9 @@
             <div class="cart-header-title">购物清单</div>
             <div class="cart-header-main">
                 <div class="cart-info">商品信息</div>
-                <div class="cart-price">单价</div>
+                <div class="carts-price">单价</div>
                 <div class="cart-count">数量</div>
-                <div class="cart-cost">小计</div>
+                <div class="carts-cost">小计</div>
                 <div class="cart-delete">删除</div>
             </div>
         </div>
@@ -119,7 +119,7 @@
 </script>
 <style scoped>
     .cart{
-        margin: 32px;
+        margin:80px 32px 32px 32px;
         background: #fff;
         border: 1px solid #dddee1;
         border-radius: 10px;
@@ -148,15 +148,28 @@
     div.cart-info{
         width: 60%;
         text-align: left;
+        cursor: pointer;
+        transition: all 0.4s;
+    }
+    div.cart-info:hover {
+        color: #2d8cf0;
+    }  
+    .carts-price{
+        width: 10%;
     }
     .cart-price{
         width: 10%;
+        color: #f2352e;
     }
     .cart-count{
         width: 10%;
     }
+    .carts-cost{
+        width: 10%;
+    }
     .cart-cost{
         width: 10%;
+        color: #f2352e;
     }
     .cart-delete {
         width: 10%;
