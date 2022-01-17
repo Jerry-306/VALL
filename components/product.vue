@@ -26,7 +26,6 @@
                     '8号色': 'moccasin',
                     '深空灰': 'grey',
                     '玫瑰金': 'moccasin'
-
                 }
             }
         },
