@@ -96,7 +96,10 @@
                 });
             },
             handleDelete (index) {
-                this.$store.commit('deleteCart', this.cartList[index].id);
+                let result = window.confirm('确定删除该商品？');
+                if (result) {
+                    this.$store.commit('deleteCart', this.cartList[index].id);
+                }
             },
             handleCheckCode () {
                 if (this.promotionCode === '') {
@@ -105,6 +108,7 @@
                 }
                 if (this.promotionCode !== 'Huawei') {
                     window.alert('优惠码验证失败');
+                    this.promotionCode = '';
                 } else {
                     this.promotion = 500;
                 }
