@@ -84,7 +84,6 @@
     }
     .product-add-cart:hover {
         background: #3992f1;
-
     }
     .product-desc{
         margin: 32px;
