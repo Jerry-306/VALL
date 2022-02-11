@@ -2,7 +2,7 @@
     <div>
         <div class="header" id="header">
             <router-link to="/list" class="header-title">
-                <img src="https://www-file.huawei.com/-/media/corporate/images/home/logo/huawei_logo.png" alt="">
+                <img src="https://consumer-res.huawei.com/etc/designs/huawei-cbg-site/clientlib-campaign-v4/common-v4/images/logo.svg" alt="">
             </router-link>
             <div class="header-menu">
                 <router-link to="/cart" class="header-menu-cart">
