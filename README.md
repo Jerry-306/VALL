@@ -5,12 +5,15 @@
 ## 展示
 
 - 首页
+
 <img width=900 src='./public/home.png'>
 
 - 商品详情页
+
 <img width=900 src='./public/product.png'>
 
 - 购物车
+
 <img width=900 src='./public/cart.png'>
 
 ## 功能介绍
