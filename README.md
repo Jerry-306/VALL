@@ -4,7 +4,7 @@
 
 ## 如何开始
 
-````bash
+```bash
 // 安装依赖
 npm install
 
