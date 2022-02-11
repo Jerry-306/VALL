@@ -2,6 +2,17 @@
 
 一个简单的`电商web`端系统
 
+## 展示
+
+- 首页
+<img width=900 src='./public/home.png'>
+
+- 商品详情页
+<img width=900 src='./public/product.png'>
+
+- 购物车
+<img width=900 src='./public/cart.png'>
+
 ## 功能介绍
 
 该项目主要具备以下几个功能:
@@ -47,16 +58,6 @@ npm run dev
 npm run build
 
 ```
-## 展示
-
-- 首页
-<img width=900 src='./public/home.png'>
-
-- 商品详情页
-<img width=900 src='./public/product.png'>
-
-- 购物车
-<img width=900 src='./public/cart.png'>
 
 ## 特别提醒
 
