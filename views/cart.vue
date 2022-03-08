@@ -207,6 +207,12 @@
         border-radius: 50%;
         box-shadow: 0 1px 1px rgba(0,0,0,.2);
         cursor: pointer;
+        transition: all 0.4s;
+    }
+    .cart-control-minus:hover,
+    .cart-control-add:hover {
+        background: #f2352e;
+        color: #dddee1;
     }
     .cart-control-delete{
         cursor: pointer;
