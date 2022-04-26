@@ -15,7 +15,7 @@ body{
     width: 100%;
     height: 48px;
     line-height: 48px;
-    background: rgb(84, 183, 187);
+    background: #7db6bf;
     color: #fff;
     z-index: 999;
 }
@@ -63,6 +63,6 @@ body{
     transition: all 0.4s;
 }
 .scroll-to-top:hover {
-    background-color: rgb(84, 183, 187);
+    background-color: #7db6bf;
     color: #fff;
 }
