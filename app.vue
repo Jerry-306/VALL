@@ -43,17 +43,10 @@
                 }
             },
             handleScroll () {
-                let timer  = null;
-                cancelAnimationFrame(timer);
-                timer = requestAnimationFrame(function fn() {
-                    let oldTop = document.body.scrollTop || document.documentElement.scrollTop;
-                    if(oldTop > 0) {
-                        scrollTo(0, oldTop - 100);
-                        timer = requestAnimationFrame(fn);
-                    } else {
-                        cancelAnimationFrame(timer);
-                    }    
-                });
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                })
             },
         }
     }
