@@ -12,7 +12,7 @@
             </div>
         </div>
         <router-view></router-view>
-        <div v-show="this.show" class="scroll-to-top" @click="handleScroll">△</div>
+        <div title="回到顶部" v-show="this.show" class="scroll-to-top" @click="handleScroll">△</div>
     </div>
 </template>
 <script>
